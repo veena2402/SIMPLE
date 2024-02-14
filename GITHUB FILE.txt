@@ -1,13 +1,17 @@
 git init
 git add .
 git commit -m "message"
+git branch -M main
+git remote add origin <Github repo URL>
+git push -u origin main
+
+git add .
+git commit -m "some messages"
 git push
 git pull
 git status 
 git log
-git branch -M main
-git remote add origin <Github repo URL>
-git push -u origin main
+
 git reset --hard
 git remote -v
 git branch
